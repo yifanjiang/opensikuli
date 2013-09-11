@@ -18,7 +18,7 @@ def testEvinceView(file_name):
 
     ret = False
 
-    evince = ApplicationFactory.create("evince", "opensuse13", "gnome")
+    evince = ApplicationFactory.create("evince", "opensuse123", "gnome")
 
     # implement test case here
     

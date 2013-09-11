@@ -18,7 +18,7 @@ def testEvinceOpenFile(app_name, file_name):
 
     ret = False
 
-    evince = ApplicationFactory.create("evince", "opensuse13", "gnome")    
+    evince = ApplicationFactory.create("evince", "opensuse123", "gnome")    
     # old snippet
     # openFile(app, file_name)
     # reg = app.window()
