@@ -1,0 +1,23 @@
+The evince regression test scripts were writen by following:
+
+https://bugzilla.novell.com/tr_show_plan.cgi?plan_id=4158
+
+Including 'Open PDF', 'Find', 'Fullscreen', 'Presentation', 'Toolbar'.
+'Rotate' and 'Zoom' are under coding, since I have to find a way for 
+judging whether the result is pass or not.
+
+Now all these scripts were writen under openSUSE 12.3 which with a custom 
+theme, so the icons in the scripts may not be suitable for the common
+theme, since I don't use gnome. :)
+
+And the icons for the common themes maybe coming soon.
+
+
+** Bugs:
+
+    * FindKeywork.sikuli: Finding result were be wrong if the bottom of the
+    evince window reaches out the screen, that is the script can't catch the 
+    key for judging the result.
+
+    
+
