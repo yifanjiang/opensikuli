@@ -28,6 +28,7 @@ def run():
     
     lo.loLaunchMax(DOC)
 
+    type(Key.HOME, Key.CTRL)
     type(Key.F7, Key.CTRL)
 
     try:
