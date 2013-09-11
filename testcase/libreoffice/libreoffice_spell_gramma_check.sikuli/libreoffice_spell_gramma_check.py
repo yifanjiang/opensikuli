@@ -18,6 +18,9 @@ def run():
 
     result =  False
 
+    # TODO, ideally, it should be something like 
+    # ApplicationFactory.create("libreoffice")
+    # The factory has the responsibility to decide the platform
     lo = ApplicationFactory.create("libreoffice", "sled11", "gnome")
 
     lo.loCloseWindow()
@@ -32,7 +35,7 @@ def run():
     
     try:
         find(Pattern("1377573392284.png").similar(0.90))
-        find(Pattern("1378882555224.png").similar(0.90))
+        find(Pattern("1378888426114.png").similar(0.93))
         result = True
     except FindFailed:
         result = False
