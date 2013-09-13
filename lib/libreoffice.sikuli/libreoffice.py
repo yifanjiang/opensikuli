@@ -72,6 +72,11 @@ class LibreofficeSled11Gnome(Libreoffice, Sled11Gnome):
         self.LO_BUTTON_NO =  "1377243794180.png"
         self.LO_BUTTON_REPLACE = "1377566475505.png"
 
+        self.LO_BUTTON_SAVE = "1378374521420.png"
+        self.LO_BUTTON_DELETE = "1378449431020.png"
+        self.LO_BUTTON_FINISH = "1378449750460.png"
+        
+
         self.LO_MENU_FILE = "1377163667217.png"
         self.LO_MENU_EDIT = "1377163675617.png"
         self.LO_MENU_VIEW = "1377163685081.png"
